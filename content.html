@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery-Content</title>
+    <script src="js/jquery.js"></script>
+    
+    <script>
+        $("document").ready(function() {
+
+            $("p:contains('I')").css("border", "1px solid red")
+            $("p:nth-child(2)").css("border", "1px solid blue")
+
+        })
+
+    </script>
+
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <p>I am the top BOX!!!</p>
+        <p>No one cares! You got issues</p>
+        <p>I'm last, I'm so sad</p>
+    </div>
+
+    
+</body>
+</html>

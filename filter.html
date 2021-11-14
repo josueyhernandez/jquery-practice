@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery-Filter</title>
+    <script src="js/jquery.js"></script>
+    
+    <script>
+        $("document").ready(function() {
+
+            $("#container p:even").css("background", "red")
+            $("#container p:odd").css("background", "aqua")
+
+        })
+
+    </script>
+
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p class="text">I like JQuery</p>
+        <p id="headerTop">Jquery is alright</p>
+        <p class="greenBorder">I'm learning JQuery!!!</p>
+        <p>Wow, Jquery is fun!</p>
+    </div>
+
+    
+</body>
+</html>
